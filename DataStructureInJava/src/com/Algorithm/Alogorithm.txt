@@ -1,0 +1,11 @@
+Characteristics of Algo:
+
+1.Input: 0 or more
+2.Output: some result;
+3.Definiteness: with clear indication tobe done.
+4.Finiteness:Must terminate at some time.finite duration.
+5.Effectiveness: resu;t description.
+
+How to write an algorithm:
+
+
