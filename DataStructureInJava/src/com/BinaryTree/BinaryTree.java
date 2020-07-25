@@ -1,5 +1,8 @@
 package com.BinaryTree;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BinaryTree {
 
     public Node root;
@@ -35,7 +38,30 @@ public class BinaryTree {
         System.out.print(p.data+" ");
     }
 
+    public void levelOrder(Node p){
+        List<Integer> al=new ArrayList<>();
+        if(p==null){
+            System.out.println("Node was empty!");
+            return;
+        }
 
+        if(p.rNode!=null && p.lNode!=null){
+
+
+        }
+
+    }
+    public void printAllLeaf(Node p){
+        if(p==null){
+           // System.out.println("Node was empty!");
+            return;
+        }
+        if(p.rNode==null && p.lNode==null){
+            System.out.println(p.data);
+        }
+        printAllLeaf(p.lNode);
+        printAllLeaf(p.rNode);
+    }
 
     public void createTree(){
         root=new Node(10);

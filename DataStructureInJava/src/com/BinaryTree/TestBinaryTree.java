@@ -5,6 +5,8 @@ public class TestBinaryTree {
     public static void main(String[] args) {
         BinaryTree b=new BinaryTree();
         b.createTree();
+        System.out.print("\ndisplay all:\n");
+        b.printAllLeaf(b.root);
         System.out.print("\nPreorder:\n");
         b.preOrder(b.root,2);
         System.out.print("\ninOrder:\n");
