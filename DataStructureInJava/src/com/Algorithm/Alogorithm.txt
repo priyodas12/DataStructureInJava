@@ -6,6 +6,11 @@ Characteristics of Algo:
 4.Finiteness:Must terminate at some time.finite duration.
 5.Effectiveness: resu;t description.
 
-How to write an algorithm:
+How to Analyze an algorithm:
 
 
+1.Time efficient.
+2.Space.
+3.Network consumption.
+4.power consumption.
+5.CPU consumption.
