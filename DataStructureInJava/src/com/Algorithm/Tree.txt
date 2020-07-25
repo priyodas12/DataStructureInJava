@@ -20,6 +20,11 @@ Binary Tree:
 	Binary Tree having n nodes,maximum height possibe n,Minimum height will be log(n+1):base 2;
 	if non empty b tree,n=number of nodes,e=umber of edges then e=n-1;
 	
+			10
+		   /  \
+		  9    11
+		/  \  /  \
+	   8  12  7   13
 	
 	
 	
