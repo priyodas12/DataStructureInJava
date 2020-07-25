@@ -1,0 +1,34 @@
+Tree:
+	Non linear data Structure;
+	hierarchical representation among elements.
+
+	Node: each elements of tree
+	Edge:connecting line of nodes
+	Parent Node: Immediate Predecessor of a Node.
+	Child Node: Immediate Successor of a Node.
+	Root Node: Not having any parent Node.
+	Leaf Node: Node does not have any child Node.
+	Level: Distance of a node from root.
+	Height: total level of Tree.
+	Sibling Node: having same parent.
+	Degree: number of immediate child Node.
+
+Binary Tree:
+	Maximum number of node 2^i  where i>=0;
+	Height h,max number of node possible 2^h-1;
+	Height h,minimum number of nodes possible 1;
+	Binary Tree having n nodes,maximum height possibe n,Minimum height will be log(n+1):base 2;
+	if non empty b tree,n=number of nodes,e=umber of edges then e=n-1;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
