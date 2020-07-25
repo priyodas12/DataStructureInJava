@@ -9,7 +9,6 @@ public class BinaryTree {
     }
 
     public void preOrder(Node p,int level){
-        int i;
         if(p==null){
             return;
         }
@@ -18,6 +17,25 @@ public class BinaryTree {
         preOrder(p.lNode,level+1);
         preOrder(p.rNode,level+1);
     }
+    public void inOrder(Node p){
+        if(p==null){
+            return;
+        }
+            inOrder(p.lNode);
+            System.out.print(p.data+" ");
+            inOrder(p.rNode);
+
+    }
+    public void postOrder(Node p){
+        if(p==null){
+            return;
+        }
+        postOrder(p.lNode);
+        postOrder(p.rNode);
+        System.out.print(p.data+" ");
+    }
+
+
 
     public void createTree(){
         root=new Node(10);
