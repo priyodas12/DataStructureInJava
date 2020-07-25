@@ -1,2 +1,2 @@
 # DataStructureInJava
-###Stack,Queue,LinkedList,Array,BST,AVL Tree build
+### Stack,Queue,LinkedList,Array,BST,AVL Tree build
